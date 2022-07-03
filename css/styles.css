@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* COMMON Styles */
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+
+    text-decoration: none;
+
+    font-size: 15px;
+}
+
+hr {
+    opacity: 0.3;
+    width: 80%;
+    margin-top: 80px;
+}
+
+
+
+/* END COMMON Styles */
+
+
+
+/* NAVIGATION Area Styles */
+
+
+
+nav {
+    background-color: white;
+    
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    letter-spacing: 4px;
+
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.199); */
+
+    box-shadow: 0 2px rgba(0, 0, 0, 0.199);
+}
+
+.nav-right-side {
+    width: 20%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 0;
+}
+
+.nav-link {
+    padding: 7px;
+}
+
+.page-markup a:hover,
+.nav-link:hover {
+    background-color: #c4c4c4;
+}
+
+
+
+/* END NAVIGATION Area Styles */
+
+
+
+/* HEADER Section Styles */
+
+
+
+.header {
+    justify-content: center;
+
+    height: 100vh;
+
+    margin-top: 60px;
+}
+
+.bg-image {
+    display: flex;
+
+    background-image: url("../assets/hamburger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: flex-end;
+}
+
+.bg-detail h2 {
+    color: gray;
+    font-size: 36px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+
+    padding: 12px 24px;
+}
+
+
+
+/* END HEADER Section Styles */
+
+
+
+
+/* ABOUT and MENU Section Styles */
+
+
+
+/* ABOUT and MENU Section COMMON Styles */
+
+
+#about,
+#menu {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 60px;    
+    margin-top: 70px;
+}
+
+.about-container,
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    height: 100vh;
+}
+
+
+.about-image,
+.menu-image {
+    background-image: url("../assets/tablesetting2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-detail,
+.menu-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+    padding: 20px;
+}
+
+.gray-text {
+    color: gray;
+}
+
+
+/* END ABOUT and MENU Section COMMON Styles */
+
+
+/* ABOUT Section Styles */
+
+
+
+.about-detail h2,
+h5 {
+    text-align: center;
+
+    letter-spacing: 5px;
+
+    font-weight: lighter;
+}
+
+.about-detail h2 {
+    font-size: 36px;
+
+}
+
+.about-detail h5 {
+    font-size: 20px;
+
+    margin-bottom: 5px;
+}
+
+.about-detail p {
+    text-align: justify;
+
+    line-height: 1.6;
+
+    font-weight: bold;
+}
+
+
+/* END ABOUT Section Styles */
+
+
+/* MENU Section Styles */
+
+#menu {
+    margin-top: 150px;
+}
+
+.menu-image {
+    background-image: url("../assets/tablesetting.jpg");
+}
+
+.meal-name {
+    font-weight: lighter;
+    letter-spacing: 7px;
+    line-height: 1.3;
+}
+
+.menu-content h2 {
+    font-weight: lighter;
+    font-size: 36px;
+
+    text-align: center;
+
+    letter-spacing: 5px;
+
+    margin-top: 0;
+}
+
+/* END MENU Section Styles */
+
+
+
+/* END ABOUT and MENU Section Styles */
+
+
+
+/* CONTACT Section Styles */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 85vh;
+
+    margin-top: 170px;
+    padding-top: 80px;
+}
+
+.contact-container {
+    width: 80%;
+}
+
+.contact-content h2 {
+    font-weight: lighter;
+    font-size: 36px;
+
+    text-align: left;
+
+    letter-spacing: 5px;
+
+    margin-top: 0;
+}
+
+strong {
+    color: #607d8b;
+}
+
+
+input {
+    width: 100%;
+
+    margin: 5px;
+    padding: 16px;
+
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.button {
+    border: none;
+
+    background-color: #f1f1f1;
+
+    width: 15%;
+    height: 40px;
+
+    margin-top: 30px;
+    padding: 0;
+
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #c4c4c4;
+}
+
+
+/*END CONTACT Section Styles */
+
+
+/* FOOTER Area Styles */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content h5 {
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+.footer-content a {
+    text-decoration: underline;
+    font-size: 16px;
+
+    margin-left: 5px;
+}
+
+.footer-content a:hover {
+    color: rgb(8, 194, 8);
+}
+
+/* END FOOTER Area Styles */
